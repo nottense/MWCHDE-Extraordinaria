@@ -6,6 +6,53 @@
     <title>Document</title>
 </head>
 <body>
+    <header>
+                    <nav class="menu" >
+                <section class=menu_container>
+                    <h1 class="menu_logo">IBZ Global</h1>
+                    <ul class="menu_links" id="menu_links">
+                        <li class="menu_item">
+                            <a href="#" class="menu_link">Inicio</a>
+                        </li>
+                        <li class="menu_item menu_item--show">
+                            <a href="#" class="menu_link">Historia<img src="assets/arrow.svg" class="menu_arrow"></a>
+                            <ul class="menu_nesting">
+                                <li class="menu_inside">
+                                    <a href="#" class="menu_link menu_link--inside">¿Quiénes somos?</a>
+                                </li>
+                                <li class="menu_inside">
+                                    <a href="#" class="menu_link menu_link--inside">Carteles históricos</a>
+                                </li>
+                                <li class="menu_inside">
+                                    <a href="#" class="menu_link menu_link--inside">Aftermovies</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu_item menu_item--show">
+                            <a href="#" class="menu_link">Información<img src="assets/arrow.svg" class="menu_arrow"></a>
+                            <ul class="menu_nesting">
+                                <li class="menu_inside">
+                                    <a href="#" class="menu_link menu_link--inside">Taquilla</a>
+                                </li>
+                                <li class="menu_inside">
+                                    <a href="#" class="menu_link menu_link--inside">Artistas</a>
+                                </li>
+                                <li class="menu_inside">
+                                    <a href="#" class="menu_link menu_link--inside">Contacto</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu_item">
+                            <a href="#" class="menu_link">Carrito</a>
+                        </li>
+                    </ul>
+                    <div class="menu_hamburguer" id="menu_hamburger">
+                        <img src="assets/menu.svg" class="menu_img" id="menu_img" onclick="open_menu()">
+                        <img src="assets/close.svg" class="close_img" id="close_img"  onclick="close_menu()">
+                    </div>
+                </section>
+            </nav>
+    </header>
     
 </body>
 </html>
