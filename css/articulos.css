@@ -24,28 +24,6 @@ html, body{
 
 
 
-/* inicio maquetación header */
-
-#header{
-    height: 100vh;
-    position: relative;
-}
-
-#header > video{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-}
-
-/* fin maquetación header */
-
-
-
-
-
 /* inicio maquetación menú */
 
 .menu{
@@ -151,25 +129,3 @@ font-family: 'Wallpoet', cursive;
 }
                 
 /* fin maquetación menú */
-
-
-
-
-
-/* inicio maquetación footer */
-
-#footer {
-    height: 3.5em;
-    background-color: black;
-    display: block;
-}
-
-#footer > p {
-    font-size: 1.1em;
-    font-family: monospace;
-    color: white;
-    padding: 1.2em;
-    margin-top: 0;
-}
-
-/* fin maquetación footer */
