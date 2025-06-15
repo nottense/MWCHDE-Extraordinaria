@@ -223,14 +223,14 @@ font-family: 'Wallpoet', cursive;
     font-size: 3.5em;
     font-family:'Audiowide', cursive;
     color: rgb(255, 0, 85);
-    padding-top: 1.5em;
+    padding-top: 1em;
     display: inline-block;
 }
 
 #eventos > p {
     font-size: 1.3em;
     font-family: 'Montserrat', sans-serif;
-    padding: 1.2em;
+    padding top: 0.5em;
     margin-left: 6em;
     margin-right: 6em;
     color: rgb(255, 255, 255);
@@ -518,14 +518,14 @@ font-family: 'Wallpoet', cursive;
         font-size: 3.5em;
         font-family:'Audiowide', cursive;
         color: rgb(255, 0, 85);
-        padding-top: 1.5em;
+        padding-top: 1em;
         display: inline-block;
     }
 
     #eventos > p {
         font-size: 1.3em;
         font-family: 'Montserrat', sans-serif;
-        padding: 1.2em;
+        padding top: 0.5em;
         margin-left: 6em;
         margin-right: 6em;
         color: rgb(255, 255, 255);
@@ -594,14 +594,14 @@ font-family: 'Wallpoet', cursive;
         font-size: 3.5em;
         font-family:'Audiowide', cursive;
         color: rgb(255, 0, 85);
-        padding-top: 1.5em;
+        padding-top: 1em;
         display: inline-block;
     }
 
     #eventos > p {
         font-size: 1.3em;
         font-family: 'Montserrat', sans-serif;
-        padding: 1.2em;
+        padding top: 0.5em;
         margin-left: 6em;
         margin-right: 6em;
         color: rgb(255, 255, 255);
@@ -670,14 +670,14 @@ font-family: 'Wallpoet', cursive;
         font-size: 3.5em;
         font-family:'Audiowide', cursive;
         color: rgb(255, 0, 85);
-        padding-top: 1.5em;
+        padding-top: 1em;
         display: inline-block;
     }
 
     #eventos > p {
         font-size: 1.3em;
         font-family: 'Montserrat', sans-serif;
-        padding: 1.2em;
+        padding top: 0.5em;
         margin-left: 6em;
         margin-right: 6em;
         color: rgb(255, 255, 255);
@@ -747,14 +747,14 @@ font-family: 'Wallpoet', cursive;
         font-size: 3.5em;
         font-family:'Audiowide', cursive;
         color: rgb(255, 0, 85);
-        padding-top: 1.5em;
+        padding-top: 1em;
         display: inline-block;
     }
 
     #eventos > p {
         font-size: 1.5em;
         font-family: 'Montserrat', sans-serif;
-        padding: 1.2em;
+        padding top: 0.5em;
         margin-left: 2em;
         margin-right: 2em;
         color: rgb(255, 255, 255);
