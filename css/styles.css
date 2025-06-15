@@ -768,7 +768,7 @@ font-family: 'Wallpoet', cursive;
     }
 
     #eventos > h2 {
-        font-size: 3.5em;
+        font-size: 3em;
         font-family:'Audiowide', cursive;
         color: rgb(255, 0, 85);
         padding-top: 1em;
@@ -776,7 +776,7 @@ font-family: 'Wallpoet', cursive;
     }
 
     #eventos > p {
-        font-size: 1.5em;
+        font-size: 1em;
         font-family: 'Montserrat', sans-serif;
         padding top: 0.5em;
         margin-left: 2em;
