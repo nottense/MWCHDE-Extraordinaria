@@ -188,22 +188,34 @@ font-family: 'Wallpoet', cursive;
 
 .galeria{
     position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
 }
 
 .imagen {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    display: block;
 }
 
 .titulo {
-    position: absolute;
-    bottom: 0em;
-    font-size: 1em;
-    font-family:'Audiowide', cursive;
-    color: black;
-    background-color: rgb(255, 0, 85);
-    width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2.5em; /* ajusta a tu gusto */
+  background-color: rgb(255, 0, 85);
+  color: black;
+  font-family: 'Audiowide', cursive;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0; /* evita márgenes por defecto */
+  padding: 0; /* evita padding por defecto */
+  box-sizing: border-box;
 }
 
 #eventos > h2 {
@@ -235,15 +247,23 @@ font-family: 'Wallpoet', cursive;
 .boton {
     font-size: 1.5em;
     font-family: 'Audiowide', cursive;
-    margin-top: 3.1em;
     background-color: rgb(255, 0, 85);
+    color: black; /* asegúrate de que sea visible */
+    padding: 0.5em 1.5em;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    margin: 2em auto;
 }
 /* fin botón */
 
 /* inicio fondo ventana modal */
 
 .modal {
-    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: fixed;
     z-index: 1;
     padding: 4.75em;
@@ -333,18 +353,6 @@ font-family: 'Wallpoet', cursive;
     background-color: #000;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* fin maquetación carrusel */
 
 
@@ -354,17 +362,95 @@ font-family: 'Wallpoet', cursive;
 /* inicio maquetación footer */
 
 #footer {
-    height: 3.5em;
-    background-color: black;
-    display: block;
+  height: 3.5em;
+  background-color: black;
+  display: flex;
+  justify-content: center; /* centra horizontalmente */
+  align-items: center;     /* centra verticalmente */
 }
 
 #footer > p {
-    font-size: 1.1em;
-    font-family: monospace;
-    color: white;
-    margin-top: 5em;
-    align-items: center;
+  font-size: 1.1em;
+  font-family: monospace;
+  color: white;
+  margin: 0; /* elimina espacios no deseados */
 }
 
 /* fin maquetación footer */
+
+
+
+
+
+/* inicio responsive menú */
+
+@media (max-width:800px){
+    .menu_hamburguer{
+        display: flex;
+    }
+    .menu_item{
+        --clip: 0;
+        overflow: hidden;
+    }
+    
+    .menu_item--active{
+        --transform: rotate(0);
+        --background: rgb(255, 255, 255);
+    }
+    
+    .menu_item--show{
+        background-color: var(--background);
+    }
+    
+    #menu_links{
+        position: fixed;
+        max-width: 400px;
+        width: 100%;
+        top: 70px;
+        right: -100%;
+        bottom: 0;
+        background-color: black;
+        overflow-y: auto;
+        display: grid;
+        grid-auto-rows: max-content;
+    }
+    
+    .menu_links--show{
+        transform: unset;
+        width: 100%;
+    }
+    
+    .menu_link{
+        padding: 25px 0;
+        padding-left: 30px;
+        height: auto;
+    }
+    
+    .menu_arrow{
+        margin-left: auto;
+        margin-right: 20px;
+    }
+    
+    .menu_nesting{
+        display: grid;
+        position: unset;
+        width: 100%;
+        transform: translateY(0);
+        height: 0;
+        transition: height .3s;
+    }
+    
+    .menu_link--inside{
+        width: 90%;
+        margin-left: auto;
+        border-left: 1px solid rgb(255, 0, 85);
+    }
+}
+
+/* fin responsive menú */
+
+
+
+
+
+/* inicio responsive contenido */
