@@ -453,4 +453,401 @@ font-family: 'Wallpoet', cursive;
 
 
 
-/* inicio responsive contenido */
+/* inicio responsive contenido tablet */
+
+@media (max-width:1300px){
+        #contenido{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: #000;
+    }
+
+    .contenedor-eventos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 450px;
+        grid-gap: 30px;
+        font-size: 1.3em;
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 2em;
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+
+    .contenedor-eventos h3{
+        padding: 0.5em;
+    }
+
+    .galeria{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .imagen {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .titulo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2.5em; /* ajusta a tu gusto */
+    background-color: rgb(255, 0, 85);
+    color: black;
+    font-family: 'Audiowide', cursive;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0; /* evita márgenes por defecto */
+    padding: 0; /* evita padding por defecto */
+    box-sizing: border-box;
+    }
+
+    #eventos > h2 {
+        font-size: 3.5em;
+        font-family:'Audiowide', cursive;
+        color: rgb(255, 0, 85);
+        padding-top: 1.5em;
+        display: inline-block;
+    }
+
+    #eventos > p {
+        font-size: 1.3em;
+        font-family: 'Montserrat', sans-serif;
+        padding: 1.2em;
+        margin-left: 6em;
+        margin-right: 6em;
+        color: rgb(255, 255, 255);
+    }
+}
+
+@media (max-width:1000px){
+        #contenido{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: #000;
+    }
+
+    .contenedor-eventos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 450px;
+        grid-gap: 30px;
+        font-size: 1.3em;
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 2em;
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+
+    .contenedor-eventos h3{
+        padding: 0.5em;
+    }
+
+    .galeria{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .imagen {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .titulo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2.5em; /* ajusta a tu gusto */
+    background-color: rgb(255, 0, 85);
+    color: black;
+    font-family: 'Audiowide', cursive;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0; /* evita márgenes por defecto */
+    padding: 0; /* evita padding por defecto */
+    box-sizing: border-box;
+    }
+
+    #eventos > h2 {
+        font-size: 3.5em;
+        font-family:'Audiowide', cursive;
+        color: rgb(255, 0, 85);
+        padding-top: 1.5em;
+        display: inline-block;
+    }
+
+    #eventos > p {
+        font-size: 1.3em;
+        font-family: 'Montserrat', sans-serif;
+        padding: 1.2em;
+        margin-left: 6em;
+        margin-right: 6em;
+        color: rgb(255, 255, 255);
+    }
+}
+
+@media (max-width:800px){
+        #contenido{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: #000;
+    }
+
+    .contenedor-eventos {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: 450px;
+        grid-gap: 30px;
+        font-size: 1.3em;
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 2em;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    .contenedor-eventos h3{
+        padding: 0.5em;
+    }
+
+    .galeria{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .imagen {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .titulo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2.5em; /* ajusta a tu gusto */
+    background-color: rgb(255, 0, 85);
+    color: black;
+    font-family: 'Audiowide', cursive;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0; /* evita márgenes por defecto */
+    padding: 0; /* evita padding por defecto */
+    box-sizing: border-box;
+    }
+
+    #eventos > h2 {
+        font-size: 3.5em;
+        font-family:'Audiowide', cursive;
+        color: rgb(255, 0, 85);
+        padding-top: 1.5em;
+        display: inline-block;
+    }
+
+    #eventos > p {
+        font-size: 1.3em;
+        font-family: 'Montserrat', sans-serif;
+        padding: 1.2em;
+        margin-left: 6em;
+        margin-right: 6em;
+        color: rgb(255, 255, 255);
+    }
+}
+
+@media (max-width:600px){
+    
+        #contenido{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: #000;
+    }
+
+    .contenedor-eventos {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: 450px;
+        grid-gap: 30px;
+        font-size: 1em;
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 1em;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    .contenedor-eventos h3{
+        padding: 0.5em;
+    }
+
+    .galeria{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .imagen {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .titulo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2.5em; /* ajusta a tu gusto */
+    background-color: rgb(255, 0, 85);
+    color: black;
+    font-family: 'Audiowide', cursive;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0; /* evita márgenes por defecto */
+    padding: 0; /* evita padding por defecto */
+    box-sizing: border-box;
+    }
+
+    #eventos > h2 {
+        font-size: 3.5em;
+        font-family:'Audiowide', cursive;
+        color: rgb(255, 0, 85);
+        padding-top: 1.5em;
+        display: inline-block;
+    }
+
+    #eventos > p {
+        font-size: 1.5em;
+        font-family: 'Montserrat', sans-serif;
+        padding: 1.2em;
+        margin-left: 2em;
+        margin-right: 2em;
+        color: rgb(255, 255, 255);
+    }
+}
+
+
+
+
+
+/* inicio responsive ventana modal para smartphone */
+
+@media (max-width:400px) {
+
+    /* inicio botón */
+    .boton {
+        font-size: 1.5em;
+        font-family: 'Audiowide', cursive;
+        margin-top: 3.1em;
+        background-color: rgb(255, 0, 85);
+    }
+    /* fin botón */
+
+    /* inicio fondo ventana modal */
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        padding-top: 100px;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0,0,0,0.5);
+    }
+    /* fin fondo ventana modal */
+
+    /* inicio ventana o caja modal */
+    .contenido-modal {
+        position: relative;
+        background-color: rgb(255, 0, 85);
+        margin: auto;
+        padding: 20px;
+        width: 60%;
+        -webkit-animation-name: animarsuperior;
+        -webkit-animation-duration: 0.5s;
+        animation-name: animarsuperior;
+        animation-duration: 0.5s
+    }
+
+    .contenido-modal h2{
+        font-family: 'Audiowide', cursive;
+        font-size: 1.5em;
+        margin-top: 2.5em;
+    }
+
+    .contenido-modal h3{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.4em;
+        margin-top: 2.5em;
+    }
+
+    .contenido-modal p{
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 2.8em;
+        margin-bottom: 4em;
+    }
+    /* fin ventana o caja modal */
+
+    /* inicio animación */
+    @-webkit-keyframes animatetop {
+        from {top:-300px; opacity:0} 
+        to {top:0; opacity:1}
+    }
+    
+    @keyframes animarsuperior {
+        from {top:-300px; opacity:0}
+        to {top:0; opacity:1}
+    }
+    /* fin animación */
+
+    /* inicio botón cerrar */
+    .close {
+        color: black;
+        float: right;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    .close:hover,
+    .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    /* fin botón cerrar */
+
+}
+
+/* fin responsive ventana modal para smartphone */
