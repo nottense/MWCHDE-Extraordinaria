@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
     <script type="text/javascript" src="main.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Wallpoet&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Monofett&display=swap" rel="stylesheet">
@@ -11,6 +12,7 @@
     <title>loopus</title>
 </head>
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
     <header>
         <div id="header">
             <video muted autoplay loop src="./assets/SERRA_TONI_SPOT.mp4" type="video/mp4"></video>
@@ -21,7 +23,7 @@
                <h1 class="menu_logo">loopus</h1>
                <ul class="menu_links" id="menu_links">
                    <li class="menu_item">
-                      <a href="html/articulos.html" class="menu_link">Artículos</a>
+                      <a href="#" class="menu_link">Artículos</a>
                    </li>
                    <li class="menu_item menu_item--show">
                        <a href="#" class="menu_link">Información<img src="assets/arrow.svg" class="menu_arrow"></a>
@@ -49,8 +51,68 @@
         </nav>    
     </header>
 
+    <div id="contenido">
+        <div id="eventos">
+            <h2>ARTÍCULOS</h2>
+            <p>¡Engranajes para jóvenes futuristas!</p>
+            <div class="contenedor-eventos">
+                <div class="galeria">
+                    <img src="img/Large-830305T00071000_F.avif" alt="" class="imagen">
+                    <h3 class="titulo">30$</h3>
+                </div>
+                <div class="galeria">
+                    <img src="img/eCom-830305T00071151_F.avif" alt="" class="imagen">
+                    <h3 class="titulo">30$</h3>
+                </div>
+                <div class="galeria">
+                    <img src="img/Large-812607T00071000_F.avif" alt="" class="imagen">
+                    <h3 class="titulo">30$</h3>
+                </div>
+                <div class="galeria">
+                    <img src="img/Large-570521T00221000_F.avif" alt="" class="imagen">
+                    <h3 class="titulo">30$</h3>
+                </div>
+                                <div class="galeria">
+                    <img src="img/Large-783094T00071000_F.avif" alt="" class="imagen">
+                    <h3 class="titulo">40$</h3>
+                </div>
+                <div class="galeria">
+                    <img src="img/Large-699455T00071000_F.avif" alt="" class="imagen">
+                    <h3 class="titulo">40$</h3>
+                </div>
+                <div class="galeria">
+                    <img src="img/Large-794303T00075730_F.avif" alt="" class="imagen">
+                    <h3 class="titulo">40$</h3>
+                </div>
+                <div class="galeria">
+                    <img src="img/Large-768060T00031000_F.avif" alt="" class="imagen">
+                    <h3 class="titulo">40$</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- Inicio ventana modal -->
+    <button id="abrirModal" class="boton">    
+        <p>INFORMACIÓN</p>
+    </button>
+
+    <div id="ventanaModal" class="modal">
+        <div class="contenido-modal">
+            <span class="cerrar">&times;</span>
+            <h2>INFORMACIÓN</h2>
+            <p>Actualmente no hay ninguna novedad programada. Estáte atento a nuestra página web porque dentro de poco se empezarán a publicar las fechas de las colecciones más locas del mundo.</p>
+        </div>
+    </div>
+<!-- Fin ventana modal -->
+    
+    
     <div id="footer">
         <p> &copy; loopus | 2025 </p>
     </div>
 </body>
+
+<script type="text/javascript" src="main.js"></script>
+
 </html>
